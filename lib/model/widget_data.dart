@@ -84,3 +84,129 @@ List<Map<String, dynamic>> trendingsSongslist = [
     'subtitle': 'KK',
   },
 ];
+List<Map<String, dynamic>> artistList = [
+  {
+    'left': 0.0,
+    'top': 41.0,
+    'imageURL':
+        'https://i.scdn.co/image/ab6761610000e5eb0261696c5df3be99da6ed3f3',
+    'title': 'Arijit Singh',
+  },
+  {
+    'left': 0.0,
+    'top': 41.0,
+    'imageURL':
+        'https://i.scdn.co/image/ab6761610000e5eb0261696c5df3be99da6ed3f3',
+    'title': 'Arijit Singh',
+  },
+  {
+    'left': 0.0,
+    'top': 41.0,
+    'imageURL':
+        'https://i.scdn.co/image/ab6761610000e5eb0261696c5df3be99da6ed3f3',
+    'title': 'Arijit Singh',
+  },
+  {
+    'left': 0.0,
+    'top': 41.0,
+    'imageURL':
+        'https://i.scdn.co/image/ab6761610000e5eb0261696c5df3be99da6ed3f3',
+    'title': 'Arijit Singh',
+  },
+  {
+    'left': 0.0,
+    'top': 41.0,
+    'imageURL':
+        'https://i.scdn.co/image/ab6761610000e5eb0261696c5df3be99da6ed3f3',
+    'title': 'Arijit Singh',
+  },
+  {
+    'left': 0.0,
+    'top': 41.0,
+    'imageURL':
+        'https://i.scdn.co/image/ab6761610000e5eb0261696c5df3be99da6ed3f3',
+    'title': 'Arijit Singh',
+  },
+  {
+    'left': 0.0,
+    'top': 41.0,
+    'imageURL':
+        'https://i.scdn.co/image/ab6761610000e5eb0261696c5df3be99da6ed3f3',
+    'title': 'Arijit Singh',
+  },
+];
+
+List<Map<String, dynamic>> songList = [
+  {
+    'title': 'Apna Bna le',
+    'artist': 'Arijit Singh',
+    'imageUrl':
+        'https://lyricalsansar.com/wp-content/uploads/2022/12/Apna-Bana-Le-Lyrics.jpg',
+  },
+  {
+    'title': 'Apna Bna le',
+    'artist': 'Arijit Singh',
+    'imageUrl':
+        'https://lyricalsansar.com/wp-content/uploads/2022/12/Apna-Bana-Le-Lyrics.jpg',
+  },
+  {
+    'title': 'Apna Bna le',
+    'artist': 'Arijit Singh',
+    'imageUrl':
+        'https://lyricalsansar.com/wp-content/uploads/2022/12/Apna-Bana-Le-Lyrics.jpg',
+  },
+  {
+    'title': 'Apna Bna le',
+    'artist': 'Arijit Singh',
+    'imageUrl':
+        'https://lyricalsansar.com/wp-content/uploads/2022/12/Apna-Bana-Le-Lyrics.jpg',
+  },
+  {
+    'title': 'Apna Bna le',
+    'artist': 'Arijit Singh',
+    'imageUrl':
+        'https://lyricalsansar.com/wp-content/uploads/2022/12/Apna-Bana-Le-Lyrics.jpg',
+  },
+  {
+    'title': 'Apna Bna le',
+    'artist': 'Arijit Singh',
+    'imageUrl':
+        'https://lyricalsansar.com/wp-content/uploads/2022/12/Apna-Bana-Le-Lyrics.jpg',
+  },
+  {
+    'title': 'Apna Bna le',
+    'artist': 'Arijit Singh',
+    'imageUrl':
+        'https://lyricalsansar.com/wp-content/uploads/2022/12/Apna-Bana-Le-Lyrics.jpg',
+  },
+  {
+    'title': 'Apna Bna le',
+    'artist': 'Arijit Singh',
+    'imageUrl':
+        'https://lyricalsansar.com/wp-content/uploads/2022/12/Apna-Bana-Le-Lyrics.jpg',
+  },
+  {
+    'title': 'Apna Bna le',
+    'artist': 'Arijit Singh',
+    'imageUrl':
+        'https://lyricalsansar.com/wp-content/uploads/2022/12/Apna-Bana-Le-Lyrics.jpg',
+  },
+  {
+    'title': 'Apna Bna le',
+    'artist': 'Arijit Singh',
+    'imageUrl':
+        'https://lyricalsansar.com/wp-content/uploads/2022/12/Apna-Bana-Le-Lyrics.jpg',
+  },
+  {
+    'title': 'Apna Bna le',
+    'artist': 'Arijit Singh',
+    'imageUrl':
+        'https://lyricalsansar.com/wp-content/uploads/2022/12/Apna-Bana-Le-Lyrics.jpg',
+  },
+  {
+    'title': 'Apna Bna le',
+    'artist': 'Arijit Singh',
+    'imageUrl':
+        'https://lyricalsansar.com/wp-content/uploads/2022/12/Apna-Bana-Le-Lyrics.jpg',
+  },
+];
