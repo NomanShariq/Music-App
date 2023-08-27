@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:music_player_app/model/widget_data.dart';
 import 'package:music_player_app/screens/artist_songs.dart';
+import 'package:music_player_app/screens/favourite_songs.dart';
 import 'package:music_player_app/screens/single_song.dart';
 
 import 'screens/home_screen.dart';
@@ -17,17 +17,18 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
-      title: 'Flutter Demo',
+      title: 'Music Player',
       theme: ThemeData(
         colorScheme: ColorScheme.fromSeed(seedColor: Colors.black),
         useMaterial3: true,
         fontFamily: 'Poppins',
       ),
-      initialRoute: 'home',
+      initialRoute: 'favourite-songs-screen',
       routes: {
         'home': (context) => const HomeScreen(),
         'single-song-screen': (context) => const SingleSongScreen(),
         'artist-songs-screen': (context) => const ArtistSongs(),
+        'favourite-songs-screen': (context) => const FavouriteSongs(),
       },
     );
   }

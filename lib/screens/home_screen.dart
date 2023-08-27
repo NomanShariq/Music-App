@@ -20,11 +20,22 @@ class _HomeScreenState extends State<HomeScreen> {
   int activePage = 1;
   int _selectedTab = 0;
 
-  _changeTab(int index) {
+  // _changeTab(int index) {
+  //   setState(() {
+  //     _selectedTab = index;
+  //   });
+  // }
+
+  void _changeTab(int index) {
+  if (index == 2) {
+    // Navigating to the Favourite Songs page
+    Navigator.of(context).pushNamed('favourite-songs-screen');
+  } else {
     setState(() {
       _selectedTab = index;
     });
   }
+}
   @override
   void initState() {
     super.initState();

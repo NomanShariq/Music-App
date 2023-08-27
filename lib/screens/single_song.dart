@@ -1,8 +1,21 @@
 import 'package:flutter/material.dart';
 import 'package:font_awesome_flutter/font_awesome_flutter.dart';
 
-class SingleSongScreen extends StatelessWidget {
+class SingleSongScreen extends StatefulWidget {
   const SingleSongScreen({super.key});
+
+  @override
+  State<SingleSongScreen> createState() => _SingleSongScreenState();
+}
+
+class _SingleSongScreenState extends State<SingleSongScreen> {
+  bool isLiked = false;
+
+  void toggleLike() {
+    setState(() {
+      isLiked = !isLiked;
+    });
+  }
 
   @override
   Widget build(BuildContext context) {
@@ -75,9 +88,13 @@ class SingleSongScreen extends StatelessWidget {
                     ),
                   ),
                 ),
-                IconButton(
-                  onPressed: () {},
-                  icon: const FaIcon(FontAwesomeIcons.heart),
+                GestureDetector(
+                  onTap: toggleLike,
+                  child: Icon(
+                    isLiked ? Icons.favorite : Icons.favorite_border,
+                    color: isLiked ? Colors.red : Colors.black,
+                    size: 30,
+                  ),
                 ),
               ],
             ),
